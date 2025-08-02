@@ -1,0 +1,230 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+}
+
+a,
+span {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #535353;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-text {
+    color: white;
+    font-size: 15px;
+}
+
+
+.icon {
+    color: white;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #cb9e25;
+    border-radius: 100px;
+    color: #cb9e25;
+    font-weight: bold;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    font-size: 50px;
+}
+
+.categorie-head {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.categorie-head h3 {
+    color: white;
+
+    font-family: "Tinos", serif;
+    font-size: 35px;
+}
+
+.categorie-head p {
+    color: #cb9e25;
+    font-style: italic;
+    font-family: "Tinos", serif;
+    font-size: 20px;
+}
+
+.heading {
+    color: #cb9e25;
+    font-family: "Tinos", serif;
+}
+
+#hero-section {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 90vh;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+
+
+.hero-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #cb9e25;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Tinos", serif;
+    margin-top: 70px;
+}
+
+.khan-hit img {
+    width: 223px;
+    height: 197px;
+    object-fit: contain;
+}
+
+.khan-hit p {
+    font-size: 12px;
+}
+
+.m-icon {
+    width: 24px;
+    height: 24px;
+    background-color: #cb9e25;
+}
+
+.m-head {
+    color: white;
+    font-family: "Tinos", serif;
+    font-size: 60px;
+}
+
+.m-span {
+    font-family: "Tinos", serif;
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 23px;
+}
+
+.flavor-head {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.flavor-head h3 {
+    color: white;
+
+    font-family: "Tinos", serif;
+    font-size: 35px;
+}
+
+.flavor-head p {
+    color: #cb9e25;
+    font-style: italic;
+    font-family: "Tinos", serif;
+    font-size: 20px;
+}
+
+.f-menu {
+    font-size: 13px;
+}
+
+.row {
+    margin: 0px;
+}
+
+.flavor-text {
+    border-top: 1px solid #cb9e25;
+    border-bottom: 1px solid #cb9e25;
+}
+
+.footer {
+    border-top: 1px solid #cb9e25;
+    padding-top: 10px;
+}
+
+.footer-p {
+    color: white;
+    font-size: 14px;
+}
+
+.footer-logo {
+    width: 130px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+
+}
+
+.footer-span {
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.footer-menu a {
+    color: white;
+    font-size: 14px;
+}
+
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #000;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.swiper-wrapper span {
+    font-size: 15px;
+}
+
+.mb-6 {
+    margin-bottom: 75px;
+}
