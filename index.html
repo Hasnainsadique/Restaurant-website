@@ -14,12 +14,12 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-black py-2">
+        <nav class="navbar navbar-expand-lg bg-black px-3">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="text-light fs-1"><i class="bi bi-list"></i></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
                     <ul class="navbar-nav gap-4">
@@ -27,7 +27,7 @@
                             <a class="nav-text active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-text" href="#">Menu</a>
+                            <a class="nav-text" href="menu.html">Menu</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-text" href="#">Event</a>
@@ -65,8 +65,10 @@
 
     <main>
         <section id="categorie">
-            <div class="container-fluid">
-                <img src="./assets/images/upp.webp" alt="" class="img-fluid">
+            <div class="w-100 p-3">
+                <img src="./assets/images/upp.webp" alt="" class="img-fluid w-100">
+            </div>
+            <div class="container">
                 <div class="categorie-head">
                     <h3>Culinary categories</h3>
                     <P>Indulge in Khan Baba's diverse flavors, each dish a tale of tradition</P>
@@ -109,11 +111,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-center mt-4">
+                    <div class="d-flex justify-content-center">
                         <a href="#" class="btn btn-outline-warning align-content-center">All categorie</a>
                     </div>
-                    <div class="mb-5"><img src="./assets/images/down.webp" alt="" class="img-fluid"></div>
                 </div>
+            </div>
+            <div class="w-100 p-3 mb-4">
+                <img src="./assets/images/down.webp" alt="" class="img-fluid w-100">
             </div>
         </section>
 
@@ -165,7 +169,7 @@
                 <div class="menu-head text-center">
                     <a href="#" class="text-warning fs-5">Full Menu</a>
                 </div>
-                <div class="row justify-content-center align-items-center">
+                <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="mb-5 mt-5">
                             <img src="./assets/images/fullmenu.webp" alt="" class="img-fluid">
@@ -190,7 +194,7 @@
                     <h3>Flavors unleashed menu</h3>
                     <P class="mb-5">Explore the rich tapestry of flavors with Khan Baba's curated menu</P>
                 </div>
-                <div class="flavor-text gap-3 flex-wrap d-flex justify-content-center mb-5 p-2">
+                <div class="flavor-text gap-4 flex-wrap d-flex justify-content-center mb-5 p-2">
                     <a href="#" class="text-light">Traditional</a>
                     <a href="#" class="text-light">Barbeque</a>
                     <a href="#" class="text-light">Karahi</a>
@@ -246,16 +250,17 @@
 
     <footer>
         <section id="footer">
-            <div class="container-fluid">
-                <div class="footer">
-                    <img src="./assets/images/upp.webp" alt="" class="img-fluid">
+              <div class="footer w-100 p-3">
+                    <img src="./assets/images/upp.webp" alt="" class="img-fluid w-100">
                 </div>
-                <div class="row px-5">
+            <div class="container">
+                <div class="row">
                     <div class="col-md-4">
                         <div class="first-col">
-                            <div class="footer-logo"><img src="./assets/images/logo.webp" alt="" class="img-fluid">
+                            <div class="footer-logo">
+                                <img src="./assets/images/logo.webp" alt="" class="img-fluid">
                             </div>
-                            <p class="footer-p px-4">Umar Hayyat Khan & his wife Aziz Begum started
+                            <p class="footer-p">Umar Hayyat Khan & his wife Aziz Begum started
                                 their business venture in 1948. People instantly
                                 fell in love with the originality and taste of their
                                 food. Ever since then, Khan Baba has become a
@@ -298,16 +303,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="py-4">
-                    <img src="./assets/images/down.webp" alt="" class="img-fluid">
-                </div>
             </div>
+             <div class="p-3 w-100">
+                    <img src="./assets/images/down.webp" alt="" class="img-fluid w-100">
+                </div>
         </section>
     </footer>
 
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
 
     <!-- Initialize Swiper -->
     <script>

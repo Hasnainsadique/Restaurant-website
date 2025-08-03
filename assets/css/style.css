@@ -13,6 +13,8 @@ a {
     color: #535353;
 }
 
+
+
 ul {
     list-style: none;
     text-decoration: none;
@@ -102,7 +104,11 @@ ul {
 }
 
 .khan-hit p {
-    font-size: 12px;
+    font-size: 13px;
+}
+.khan-hit span{
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .m-icon {
@@ -158,18 +164,16 @@ ul {
 
 .footer {
     border-top: 1px solid #cb9e25;
-    padding-top: 10px;
 }
 
 .footer-p {
     color: white;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .footer-logo {
     width: 130px;
     margin-bottom: 30px;
-    padding-left: 20px;
 
 }
 
@@ -183,7 +187,6 @@ ul {
     color: white;
     font-size: 14px;
 }
-
 
 html,
 body {
@@ -228,3 +231,30 @@ body {
 .mb-6 {
     margin-bottom: 75px;
 }
+
+#menu-hero {
+    background: url("../images/menu\ banner.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 90vh;
+
+}
+
+.menu-list {
+    background-color: #cb9e25;
+    margin-bottom: 60px;
+}
+
+.menu-list a {
+    font-size: 15px;
+}
+.menu-list a:hover{
+    text-decoration: underline;
+}
+.menucategorie-head h3 {
+    color: white;
+    text-align: center;
+    font-family: "Tinos", serif;
+    font-size: 45px;
+}
+
