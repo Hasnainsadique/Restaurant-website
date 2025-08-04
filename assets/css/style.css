@@ -92,7 +92,6 @@ ul {
 
 .hero-content h1 {
     font-size: 80px;
-    font-weight: bold;
     font-family: "Tinos", serif;
     margin-top: 70px;
 }
@@ -106,7 +105,8 @@ ul {
 .khan-hit p {
     font-size: 13px;
 }
-.khan-hit span{
+
+.khan-hit span {
     font-size: 15px;
     font-weight: bold;
 }
@@ -248,13 +248,89 @@ body {
 .menu-list a {
     font-size: 15px;
 }
-.menu-list a:hover{
+
+.menu-list a:hover {
     text-decoration: underline;
 }
+
 .menucategorie-head h3 {
     color: white;
     text-align: center;
     font-family: "Tinos", serif;
     font-size: 45px;
 }
+
+.menu-head a:hover {
+    text-decoration: underline;
+}
+
+.event h1 {
+    color: white;
+}
+
+.event p {
+    color: white;
+    font-family: "Tinos", serif;
+    font-style: italic;
+}
+
+#event-section{
+     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/menu\ banner.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 90vh;
+    width: 100%;
+}
+
+
+.event-head {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.event-head h3 {
+    color: white;
+    font-family: "Tinos", serif;
+    font-size: 40px;
+}
+
+.event-head p {
+    color: #cb9e25;
+    font-style: italic;
+    font-family: "Tinos", serif;
+    font-size: 25px;
+}
+
+.form-section {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.form-title {
+  display: block;
+  margin-bottom: 8px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.form-control {
+  background-color: #0a0a0a;
+  padding: 15px;
+  border: 1px solid #555;
+  border-radius: 30px;
+  
+}
+
+textarea.form-control {
+  border-radius: 25px;
+  min-height: 140px;
+}
+#about-section{
+    background:  url("../images/about\ banner.webp");
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    width: 100%;
+}
+
 
